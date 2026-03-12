@@ -65,3 +65,4 @@ class WorkflowState(TypedDict, total=False):
     # --- Persistence ---
     application_record: dict[str, Any]
     """Stored application metadata (e.g. job id, status, dates) for DB or UI."""
+

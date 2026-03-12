@@ -43,3 +43,4 @@ def clean_text(
         text = text.strip()
 
     return text
+

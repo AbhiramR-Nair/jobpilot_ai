@@ -74,3 +74,4 @@ def setup_logging(
             h.setFormatter(logging.Formatter(fmt, datefmt=date_fmt))
 
     _configured = True
+

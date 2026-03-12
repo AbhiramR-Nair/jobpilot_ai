@@ -72,3 +72,4 @@ def extract_text_from_docx(path: str | Path) -> str:
                 parts.append(" | ".join(row_text))
 
     return "\n".join(parts)
+
