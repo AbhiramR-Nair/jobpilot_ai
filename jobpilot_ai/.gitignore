@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Project
+*.db
+*.sqlite
+*.faiss
+.env.local
+
+# Data (do not commit personal artifacts)
+data/cvs/
+data/optimized_cvs/
+data/job_cache/
+
+# Keep directory placeholders
+!data/cvs/.gitkeep
+!data/optimized_cvs/.gitkeep
+!data/job_cache/.gitkeep
+
