@@ -1,4 +1,4 @@
-"""Configuration utilities for `jobpilot_ai` (placeholder).
+"""Configuration utilities for the jobpilot_ai app (placeholder).
 
 Intended responsibilities (to be implemented later):
 

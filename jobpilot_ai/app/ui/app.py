@@ -1,9 +1,9 @@
 """Streamlit dashboard entrypoint for `jobpilot_ai`.
 
-This module will serve as the main entrypoint for the Streamlit-based
-user interface. The goal is to provide a **simple, guided workflow**
-for job seekers while delegating all heavy lifting to the core
-`jobpilot_ai` package and the LangGraph workflow.
+This module serves as the main entrypoint for the Streamlit-based user
+interface. The goal is to provide a **simple, guided workflow** for job
+seekers while delegating heavy lifting to the app package and the
+LangGraph workflow.
 
 Planned responsibilities (to be implemented later):
 
@@ -13,10 +13,10 @@ Planned responsibilities (to be implemented later):
   - Job-specific optimization (CV tailoring, ATS checks).
   - Outreach planning (recruiter discovery and email drafting).
 - Wire UI interactions to:
-  - The LangGraph workflow defined in `jobpilot_ai.workflow`.
-  - Database operations in `jobpilot_ai.db`.
-  - Feature modules like `job_finder`, `cv_optimizer`, and
-    `email_generator`.
+  - The LangGraph workflow defined in `app.graph.workflow`.
+  - Database operations in `app.database.db`.
+  - Feature modules like `app.agents.job_finder`, `app.agents.cv_optimizer`,
+    and `app.agents.email_generator`.
 - Provide a clean, modern layout with intuitive navigation while keeping
   the implementation lightweight and maintainable.
 
