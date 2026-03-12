@@ -1,0 +1,6 @@
+langgraph
+openai
+streamlit
+faiss-cpu
+python-docx
+sqlite-utils
