@@ -1,6 +1,11 @@
 langgraph
 openai
-streamlit
 faiss-cpu
 python-docx
-sqlite-utils
+streamlit
+pydantic
+sqlalchemy
+requests
+beautifulsoup4
+python-dotenv
+tqdm
