@@ -8,6 +8,7 @@ Available modules:
 - docx_utils: Read, write, and extract text from DOCX files (python-docx).
 - text_utils: Basic text cleaning (whitespace, newlines).
 - logging_utils: Centralized logging and get_logger.
+- openai_client: Reusable OpenAI wrapper (chat + embeddings + retries).
 - config: Configuration loading (placeholder).
 """
 
@@ -17,13 +18,16 @@ from .docx_utils import (
     write_docx,
 )
 from .logging_utils import get_logger, setup_logging
+from .openai_client import OpenAIClient, RetryConfig
 from .text_utils import clean_text
 
 __all__ = [
     "clean_text",
     "extract_text_from_docx",
     "get_logger",
+    "OpenAIClient",
     "read_docx",
+    "RetryConfig",
     "setup_logging",
     "write_docx",
 ]
